@@ -20,7 +20,7 @@
     "tslint": "^5.0.0",
     "tslint-config-unional": "^0.7.0",
     "typescript": "^2.0.0",
-    "typings": "^2.0.0"
+    "typings": "^2.1.1"
   },
   "scripts": {
     "build": "tsc -p tsconfig.build.json",
