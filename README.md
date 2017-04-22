@@ -43,7 +43,9 @@ export const commandB = {
 } as Command
 ```
 
-Although more verbose, I would prefer `commandA` approach as it provides better type support on `this`.
+If you want better type support of `this`, do the `commandA` approach.
+
+If your command is simple or do not need type support (comfortable in JavaScript), you can use the `commandB` approach.
 
 ## Contribute
 
